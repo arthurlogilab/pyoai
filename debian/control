@@ -1,0 +1,21 @@
+Source: pyoai
+Maintainer: Arthur Lutz <arthur.lutz@logilab.fr>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 9)
+Standards-Version: 3.9.1
+
+Package: python-pyoai
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: The oaipmh module is a Python implementation of an "Open Arc
+ OAIPMH
+ ======
+ .
+ The oaipmh module is a Python implementation of an "Open Archives
+ Initiative Protocol for Metadata Harvesting" (version 2) client and
+ server. The protocol is described here:
+ .
+ http://www.openarchives.org/OAI/openarchivesprotocol.html
+ .
+
